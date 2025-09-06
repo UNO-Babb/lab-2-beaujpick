@@ -14,10 +14,9 @@ answers = ["As I see it, yes", "Ask again later", "Better not tell you now", "Ca
   #Answer question randomly with one of the options from your earlier list.
 length = len(answers)
 r=random.random() * length
-
+Question = input("Ask a question: ")
 
 r = int(r)
-print(r)
 response = answers[r]
 print(response)
 
